@@ -3,8 +3,8 @@ tar -xzf pve-windows-user-manager-1.1.1.tar.gz
 cd pve-windows-user-manager-1.1.1
 
 chmod +x *.sh *.py
-./install.sh
 
+./install.sh
 
 Windows User Manager for Proxmox VE
 
@@ -63,7 +63,6 @@ QEMU Guest Agent
 PowerShell / Windows Local Accounts
         ↓
 Local Windows Users and Groups
-
 No direct network connection from Proxmox to Windows is required.
 
 Requirements
