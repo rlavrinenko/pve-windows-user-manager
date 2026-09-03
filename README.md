@@ -1,9 +1,11 @@
 # Windows User Manager for Proxmox VE
 
-tar -xzf pve-windows-user-manager-1.1.1.tar.gz
-cd pve-windows-user-manager-1.1.1
+tar -xzf pve-windows-user-manager-1.1.4.tar.gz
+
+cd pve-windows-user-manager-1.1.4
 
 chmod +x *.sh *.py
+
 ./install.sh
 
 Windows User Manager is a Proxmox VE module for managing local Windows user accounts directly from the virtual machine interface.
